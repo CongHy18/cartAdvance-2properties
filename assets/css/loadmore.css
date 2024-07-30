@@ -1,0 +1,37 @@
+
+/* .post-tabs-demo {display: block; text-align: center ;margin-bottom: 1.5rem;} 
+.post-tabs-demo .nav-demo-list { margin: 0 auto; position: relative; padding: 4px 0px 4px; width: auto; display: inline-block; text-align: center; overflow: hidden } 
+.post-tabs-demo .nav-demo-list .nav-demo-list-item { padding: 7px 15px; color: #3d3d3d; text-transform: capitalize; text-decoration: none; font-size: 16px; display: inline-block; vertical-align: middle; position: relative; z-index: 1; overflow: hidden; cursor: pointer; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; text-align: center; border-radius: 30px; overflow: hidden; margin: 3px 0px } 
+.post-tabs-demo .nav-demo-list .nav-demo-list-item:before { width: 0%; left: 50%; content: ''; bottom: 0px; position: absolute; height: 100%; background: #c5122a; z-index: -1; opacity: 0; -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) } 
+.post-tabs-demo .nav-demo-list .nav-demo-list-item:after { width: 0%; right: 50%; content: ''; bottom: 0px; position: absolute; height: 100%; background: #c5122a; z-index: -1; opacity: 0; -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) } 
+.post-tabs-demo .nav-demo-list .nav-demo-list-item.active,
+.post-tabs-demo .nav-demo-list .nav-demo-list-item:hover { color: #FFF } 
+.post-tabs-demo .nav-demo-list .nav-demo-list-item.active:before,
+.post-tabs-demo .nav-demo-list .nav-demo-list-item.active:after,
+.post-tabs-demo .nav-demo-list .nav-demo-list-item:hover:before,
+.post-tabs-demo .nav-demo-list .nav-demo-list-item:hover:after { width: 50%; opacity: 1 }  */
+/* .post-readmore {text-align: center;margin-top: 30px}
+.post-readmore button {display: inline-block;padding: 15px 70px;background: #c5122a;color: #FFF;border-radius: 70px;cursor: pointer;border: none;font-size: 18px;transition: all 0.5s;outline: none;position: relative;overflow: hidden;min-width: 300px}
+.post-readmore button:hover {border-radius: 0px} */
+.post-tab-content { display: none } 
+.post-tab-content.post-tab-show { display: block } 
+/*spinner*/
+.lds-spinner { color: official; display: inline-block; position: relative; width: 60px; height: 60px; margin: auto; display: none } 
+.lds-spinner div { transform-origin: 40px 30px; animation: lds-spinner 1.2s linear infinite } 
+.lds-spinner div:after { content: " "; display: block; position: absolute; top: 3px; left: 37px; width: 4px; height: 12px; border-radius: 20%; background: var(--color-main) } 
+.lds-spinner div:nth-child(1) { transform: rotate(0deg); animation-delay: -1.1s } 
+.lds-spinner div:nth-child(2) { transform: rotate(30deg); animation-delay: -1s } 
+.lds-spinner div:nth-child(3) { transform: rotate(60deg); animation-delay: -0.9s } 
+.lds-spinner div:nth-child(4) { transform: rotate(90deg); animation-delay: -0.8s } 
+.lds-spinner div:nth-child(5) { transform: rotate(120deg); animation-delay: -0.7s } 
+.lds-spinner div:nth-child(6) { transform: rotate(150deg); animation-delay: -0.6s } 
+.lds-spinner div:nth-child(7) { transform: rotate(180deg); animation-delay: -0.5s } 
+.lds-spinner div:nth-child(8) { transform: rotate(210deg); animation-delay: -0.4s } 
+.lds-spinner div:nth-child(9) { transform: rotate(240deg); animation-delay: -0.3s } 
+.lds-spinner div:nth-child(10) { transform: rotate(270deg); animation-delay: -0.2s } 
+.lds-spinner div:nth-child(11) { transform: rotate(300deg); animation-delay: -0.1s } 
+.lds-spinner div:nth-child(12) { transform: rotate(330deg); animation-delay: 0s } 
+@keyframes lds-spinner { 
+ 0% { opacity: 1 } 
+ 100% { opacity: 0 } 
+}

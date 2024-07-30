@@ -1,0 +1,102 @@
+/* REPONSIVE */
+@media(max-width:1300px) { } 
+@media(max-width:1001px){
+ .header .header-bottom .wrap-content { justify-content: center; padding: 5px 0; } 
+.toolbar, .btn-social { display: block; } 
+.scrollToTop { display: none; } 
+ }
+@media(max-width:850px){
+ .banner-header { display: none !important; } 
+ .i { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; padding: 0 15px !important; } 
+ }
+@media(max-width:550px){
+ .col-input { margin-bottom: 0; } 
+ .newsletter-input { margin-bottom: 10px; } 
+ }
+@media(max-width:440px) { } 
+@media(max-width:391px) { } 
+@media(max-width:360px) { } 
+
+
+/* REPONSIVE DEFAUT */
+@media only screen and (max-width: 850px){
+ .wrap-container { position: relative; overflow: hidden; } 
+ }
+ @media only screen and (max-width: 991px){
+ .menu-res { display: block; } 
+ }
+ @media only screen and (max-width: 991px){
+ .cart-fixed { bottom: 320px !important; } 
+ }
+ @media only screen and (max-width: 991px){
+ .grid-product { gap: 15px; grid-template-columns: repeat(3, minmax(0, 1fr)); } 
+ }
+ @media only screen and (max-width: 575px){
+ .grid-product { gap: 10px; grid-template-columns: repeat(2, minmax(0, 1fr)); } 
+ }
+ @media only screen and (max-width: 767px){
+ .cart-pro-detail a { width: 100%; } 
+ .cart-pro-detail a:first-child { margin-right: 0px; margin-bottom: 0.5rem; } 
+ .cart-pro-detail a i { display: none; } 
+ }
+ @media only screen and (max-width: 575px){
+ .news .news-image { margin-bottom: 1rem; } 
+ }
+ @media only screen and (max-width: 991px){
+ .img-auto img { width: auto !important; height: auto !important; } 
+ }
+ @media only screen and (max-width: 991px){
+ .footer-powered, .footer-statistic { text-align: center !important; } 
+ }
+ @media only screen and (max-width: 850px){
+ .py50 { padding: 30px 0px; } 
+ .py60 { padding: 30px 0px; } 
+ .py70 { padding: 30px 0px; } 
+ }
+ @media only screen and (max-width: 850px){
+ .mb-50 { margin-bottom: 30px; } 
+ }
+ @media only screen and (max-width: 850px){
+ .mt-50 { margin-top: 30px; } 
+ }
+ @media only screen and (max-width: 850px){
+ .mgb-res { margin-bottom: 30px !important; } 
+ }@media only screen and (max-width: 991px){
+ .top-cart { margin-bottom: 2rem; } 
+ }@media only screen and (max-width: 575px){
+ .name-procart a { font-size: 13px; } 
+ }@media only screen and (max-width: 767px){
+ .quantity-procart { text-align: right; } 
+ }@media only screen and (max-width: 767px){
+ .price-procart { display: none; } 
+ }@media only screen and (max-width: 767px){
+ .price-procart-rp { display: block; } 
+ }@media only screen and (max-width: 575px){
+ .procart-label { font-size: 13px; } 
+ }
+ @media only screen and (min-width: 768px){
+ .procart-label .quantity-procart p:first-child { display: block; } 
+ }
+ @media only screen and (max-width: 767px){
+ .procart-label .quantity-procart p:first-child { display: none; } 
+ }
+ @media only screen and (min-width: 768px){
+ .procart-label .quantity-procart p:last-child { display: none; } 
+ }
+ @media only screen and (max-width: 767px){
+ .procart-label .quantity-procart p:last-child { display: block; } 
+ }@media only screen and (min-width: 992px){
+ .comment-item { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; } 
+ }@media only screen and (max-width: 991px){
+ .comment-item-poster { width: auto; margin-right: 0px; margin-bottom: 0.5rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; } 
+ }@media only screen and (max-width: 991px){
+ .comment-item-letter { width: 40px; height: 40px; line-height: 40px; font-size: 13px; margin-bottom: 0; } 
+ }@media only screen and (max-width: 991px){
+ .comment-item-name { margin-bottom: 0px; margin-left: 10px; margin-right: 10px; } 
+ }@media only screen and (max-width: 991px){
+ .comment-item-information { width: 100%; } 
+ }@media only screen and (max-width: 991px){
+ .header-top, .hotline-header { display: none; } .logo-header { margin-right: 20px; } 
+ }@media only screen and (max-width: 991px){
+ .menu { display: none; } 
+ }

@@ -1,0 +1,60 @@
+/* VIDEO */
+.wrap-video { position: relative; z-index: 11; } 
+.play { left: 0; right: 0; bottom: 0; margin: auto; display: flex; flex-direction: column; justify-content: center; height: 100%; width: 50%; align-items: center; /* padding: 15px; */ } 
+.play img { padding: 10px; } 
+.image-video img { height: 375px; } 
+
+/* ALBUM */
+.wrap-album { position: relative; z-index: 1; } 
+.main-album { display: grid; grid-template-columns: repeat(12, 1fr); grid-template-rows: repeat(4, 1fr); grid-column-gap: 20px; grid-row-gap: 20px; } 
+.items-album:nth-child(1) { grid-area: 1 / 1 / 5 / 6; } 
+.items-album:nth-child(2) { grid-area: 1 / 6 / 3 / 10; } 
+.items-album:nth-child(3) { grid-area: 1 / 10 / 3 / 13; } 
+.items-album:nth-child(4) { grid-area: 3 / 6 / 5 / 9; } 
+.items-album:nth-child(5) { grid-area: 3 / 9 / 5 / 13; } 
+
+/* SOCIAL */
+.social-header ul li img { filter: brightness(0) saturate(100%) invert(32%) sepia(39%) saturate(6267%) hue-rotate(81deg) brightness(94%) contrast(101%); } 
+.line-bottom { position: relative; padding-bottom: 10px; } 
+.line-bottom::after { position: absolute; border-bottom: 2px solid #fff; content: ""; left: 0; bottom: 0; width: 35px; } 
+.filter-image img { filter: brightness(0) saturate(100%) invert(32%) sepia(39%) saturate(6267%) hue-rotate(81deg) brightness(94%) contrast(101%); } 
+.social-footer li{width: 40px;height: 40px;border-radius: 50%;}
+/* ABOUT */
+.wrap-aboutus { position: relative; z-index: 1; } 
+.aboutus-image { z-index: 1; } 
+.title-aboutus { font-size: 30px; color: #000; text-transform: capitalize; } 
+.name-aboutus { font-size: 30px; color: #000; text-transform: capitalize; } 
+.desc-aboutus { -webkit-line-clamp: 6; font-size: 15px; line-height: 30px; margin-top: 15px; } 
+
+/* STATISTIC */
+.number-item-name a { font-size: 40px; } 
+.number-item-name span { font-size: 15px; } 
+.plus-statistic { position: relative; top: -15px; } 
+
+/* CRITICAL */
+.criteria-name { margin-bottom: 0.25rem; } 
+.criteria-name a { font-family: var(--font-bold); font-size: 14px; color: #000; line-height: 1.5; } 
+.criteria-name a.text-split { -webkit-line-clamp: 2; margin-top: 20px; } 
+.criteria-desc { color: #8a8888; line-height: 1.6; font-size: 13px; } 
+.criteria .criteria-image { transition: all linear 0.3s; } 
+.criteria:hover .criteria-image { transform: rotateY(180deg); transition: all linear 0.3s; } 
+
+/* NEW */
+.news-info .name a { font-size: 16px; color: #000; -webkit-line-clamp: 2; } 
+.news-info .desc { font-size: 14px; color: #000; line-height: 25px; margin-top: 10px; } 
+
+/* FORM */
+.wrap-form { background: var(--color-main); background-size: 100% 100%; } 
+.title-form{text-align: center;font-family: var(--font-bold);text-transform: uppercase;}
+
+/* CSS CUSTOM */
+.product .i_left { position: absolute; height: 0; border-radius: 0 50px; width: 2px; left: 0; top: 0; background: -webkit-linear-gradient(bottom, red, orange, yellow, green, blue, indigo, violet); background: -o-linear-gradient(bottom, red, orange, yellow, green, blue, indigo, violet); background: -webkit-gradient(linear, left bottom, left top, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(indigo), to(violet)); background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet); -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease } 
+.product .i_right { position: absolute; height: 0; width: 2px; right: 0; bottom: 0; background: -webkit-linear-gradient(top, red, orange, yellow, green, blue, indigo, violet); background: -o-linear-gradient(top, red, orange, yellow, green, blue, indigo, violet); background: -webkit-gradient(linear, left top, left bottom, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(indigo), to(violet)); background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet); -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease } 
+.product .i_top { position: absolute; height: 2px; width: 0; right: 0; top: 0; background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); background: -webkit-gradient(linear, left top, right top, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(indigo), to(violet)); background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease } 
+.product .i_bottom { position: absolute; height: 2px; width: 0; left: 0; bottom: 0; background: -webkit-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet); background: -o-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet); background: -webkit-gradient(linear, right top, left top, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(indigo), to(violet)); background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet); -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease } 
+.product:hover .i_left { height: 100%; bottom: 0; top: inherit } 
+.product:hover .i_top { width: 100%; left: 0 } 
+.product:hover .i_right { height: 100%; top: 0; bottom: inherit } 
+.product:hover .i_bottom { width: 100%; right: 0; left: inherit } 
+
+
