@@ -6,14 +6,14 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
 
 /* Cấu hình coder */
 define('NN_CONTRACT', 'MSHD');
-define('NN_AUTHOR', 'lequocdung.nina@gmail.com');
+define('NN_AUTHOR', '');
 
 /* Cấu hình chung */
 $config = array(
     'author' => array(
-        'name' => 'Lê Quốc Dũng',
-        'email' => 'lequocdung.nina@gmail.com',
-        'timefinish' => '12/2023'
+        'name' => '',
+        'email' => '',
+        'timefinish' => ''
     ),
     'arrayDomainSSL' => array(),
     'database' => array(
